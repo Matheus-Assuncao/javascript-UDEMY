@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primery-color: #d3d3d3;
+    --second-color: #948d8d;
+    --primery-color-darker: #6d6969;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primery-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+#texto1 {
+    padding: 0px;
+    margin: 10px;
+    font-size: 1em;
+    display: inline-block;
+}
+
+#texto2 {
+    padding: 0px;
+    margin: 10px;
+    font-size: 1em;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 1.1em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 40px;
+    padding: 0px 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primery-color);
+}
+
+form button {
+    border: none;
+    background: var(--second-color);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background: var(--primery-color-darker);
+}
+
+.deu-certo{
+    background-color: rgb(131, 236, 131);
+}
+
+.deu-errado{
+    background-color: rgb(219, 120, 120);
+}
