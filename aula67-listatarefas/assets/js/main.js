@@ -1,12 +1,24 @@
 function taskList(){
-    const task = document.querySelector('#task');
     const result = document.querySelector('.result');
+    const send = document.querySelector('#send');
 
-    function getResut(task){
-        const p = document.createElement('p')
+
+
+    send.addEventListener('click' , (e) => {
+        const task = document.querySelector('#task').value;
+        const li = document.createElement('li');
+        const p = document.createElement('p');
+        const button = document.createElement('button');
+        button.classList.add('buttontask');
+        button.innerText = 'apagar'
         p.innerText = task
-    }
+        p.appendChild(button)
+        li.appendChild(p)
+        result.appendChild(li)
+        console.log(task)
+    }) 
 
-    console.log(getResut('sei la'))
+    
+
 };
 taskList();
