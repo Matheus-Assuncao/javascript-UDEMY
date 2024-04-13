@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap');
+:root{
+    --primery-color: #d3d3d3;
+    --primery-color-darker: #323232;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primery-color);
+    font-family: 'Open sans' , sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height:40px;
+    padding: 0px 20px;
+}
+
+form input:focus{
+    outline: 1px solid var(--primery-color);
+}
+
+form button{
+    border: none;
+    background: var(--primery-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover{
+    background: var(--primery-color-darker);
+}
+
+.resultado{
+    font-size: 2em;
+    color: var(--primery-color-darker);
+    margin: 40px 0;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 15px;
+}
+
+button{
+    display: block;
+    margin: 30px 0;
+    font-size: 1.5em;
+}
