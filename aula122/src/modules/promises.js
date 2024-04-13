@@ -9,5 +9,5 @@ function promessa(){
 
 export default async function() {
     await promessa();
-    console.log('terminou')
+    console.log('terminou');
 }     
