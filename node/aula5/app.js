@@ -8,7 +8,7 @@ const pessoas = [
     {nome: 'Maria'},
     {nome: 'Luna'}
 ];
-const pessoasJson = JSON.stringify(pessoas, '', 2)
+const pessoasJson = JSON.stringify(pessoas, '')
 es
 */
 
