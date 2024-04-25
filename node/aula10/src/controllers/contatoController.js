@@ -1,0 +1,1 @@
+exports.paginaInicial = (req,res) => res.send('Formas de contato -');
