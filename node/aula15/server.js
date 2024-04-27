@@ -5,7 +5,7 @@ const app = express();
 
 //conexão com base de dados
 const mongoose = require('mongoose');
-//const connectionString = 'mongodb+srv://matheusassuncao:CarrosLegais2311**@cluster0.5p74fmf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+
 mongoose.connect(process.env.CONNECTIONSTRING)
     .then(() => {
         app.emit('online');
